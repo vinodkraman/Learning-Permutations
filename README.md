@@ -1,2 +1,2 @@
 # LearningPermutations
-Comparing Transformers and LSTMs in their ability to learning permutations. 
+In this project, we view Transformers and RNNs as sequence-to-sequence maps and compare their ability to learn an unknown permutation operator. That is, given a sequence tokens $X \in V^N$, where $V$ is the vocubulary space, the goal is correctly output $\sigma(X)$, where $\sigma: V^N \rightarrow V^N$ denotes a permutation.  Despite their superiority in language modeling, we find that Transformers perform *worse* than RNNs when attempting to learn an unknown permutation transformation from labeled training data. 
